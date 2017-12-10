@@ -1,0 +1,42 @@
+#+TITLE: Artificial Intelligence Modern Approach
+#+AUTHOR: 147Pm
+#+EMAIL: teilchen010.gmail.com
+#+DATE: 2017-12-09T13:58:50
+#+FILETAGS: :AIMA1:
+#+LANGUAGE:  en
+# #+INFOJS_OPT: view:showall ltoc:t mouse:underline path:http://orgmode.org/org-info.js
+#+HTML_HEAD: <link rel="stylesheet" href="../../data/stylesheet.css" type="text/css">
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+HTML_MATHJAX: align: left indent: 5em tagside: left font: Neo-Euler
+#+OPTIONS: H:10 num:4 toc:t \n:nil @:t ::t |:t _:{} *:t ^:{} prop:t
+#+OPTIONS: prop:t
+#+OPTIONS: tex:t
+#+STARTUP: showall
+#+STARTUP: align
+#+STARTUP: indent
+#+STARTUP: entitiespretty
+#+STARTUP: logdrawer
+#+STARTUP: hidestars
+#+STARTUP: inlineimages
+
+* AGENTS
+
+#+CAPTION: Agents interact with environments through sensors and effectors.
+#+NAME: fig.agent
+[[file:images/agents1.png]]
+
+\rightarrow /percept/: An object of perception; something that is perceived. A mental concept that is developed as a consequence of the process of perception.
+
+/zB/: "As a psychological function, sensation is the means by which we process in consciousness the evidence of our senses and build up percepts of our world."
+
+/zB/: "Differences in the relative positions of features with respect to reference frames lead to different percepts of the objects - the percept of a square in one case, and of a diamond in another."
+
+\rightarrow /percept sequence/: complete perceptual history.
+
+/zB/: Clocks are a kind of degenerate agent in that their percept sequence is empty; no matter what happens outside, the clock's action should be unaffected.
+
+\rightarrow /Autonomy/ : A system is autonomous to the extent that its behavior is determined by its own experience.
+
+/zB/: If a clock manufacturer was prescient enough to know that the clock's owner would be going to Australia at some particular date, then a mechanism could be built in to adjust the hands automatically by six hours at just the right time. This would certainly be successful behavior, but the intelligence seems to belong to the clock's designer rather than to the clock itself. Hence, the clock would not be expressing autonomy.
+
